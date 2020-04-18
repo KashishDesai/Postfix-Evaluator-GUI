@@ -19,6 +19,7 @@ public class DataAndUndoListener implements TableModelListener, ActionListener {
 	private Map<String, Integer> tableCellIndexReference = new HashMap<String, Integer>();
 	
 	//handles Memento (Undo Functionality)
+
 	private MementoOriginator mementoOriginator;
 	private Caretaker caretaker;
 	
